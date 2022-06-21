@@ -14,7 +14,7 @@ public struct ErrorModel: Error, Codable {
         self.message = message
     }
 }
-extension ErrorModel {
+public extension ErrorModel {
     
     static func encodeError() -> ErrorModel {
         return ErrorModel( message: " Encoding Error")

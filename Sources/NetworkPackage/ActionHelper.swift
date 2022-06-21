@@ -31,13 +31,13 @@ public extension ActionHelper {
     }
 }
 
-enum Language{
+public enum Language{
     case en
     case tr
     case es
 }
 
-extension Language {
+public extension Language {
     var language: String {
         switch self {
         case .en:
