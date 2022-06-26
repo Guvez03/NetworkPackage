@@ -9,4 +9,8 @@ import Foundation
 
 public struct MovieDetailRequest: Codable {
     public let id: Int
+    
+    public init(id: Int){
+        self.id = id
+    }
 }
