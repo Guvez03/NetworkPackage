@@ -8,5 +8,5 @@
 import Foundation
 
 public struct MovieDetailRequest: Codable {
-    let id: Int
+    public let id: Int
 }
