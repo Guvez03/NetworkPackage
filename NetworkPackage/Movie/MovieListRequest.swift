@@ -7,5 +7,8 @@
 
 import Foundation
 
-public struct MovieListRequest: Codable {}
+public struct MovieListRequest: Codable {
+    
+    public init(){}
+}
  
